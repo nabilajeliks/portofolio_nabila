@@ -2032,12 +2032,18 @@ body {
   min-height: 43px;
   display: flex;
   align-items: center;
-  gap: 27px;
-  padding-inline: 24px;
+  padding: 0;
   animation: strip-scroll 32s linear infinite;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.13em;
+}
+
+.brand-strip-segment {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+  padding-right: 27px;
 }
 
 .brand-strip-track b {
@@ -2047,7 +2053,7 @@ body {
 
 @keyframes strip-scroll {
   to {
-    transform: translateX(-50%);
+    transform: translateX(-25%);
   }
 }
 
