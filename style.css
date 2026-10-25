@@ -1180,6 +1180,20 @@ button:focus-visible {
   font-size: clamp(26px, 4.3vw, 37px);
 }
 
+@media (max-width: 900px) {
+  .skills-section .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .skills-section .section-heading h2 {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+}
+
 .skills-panel {
   display: flex;
   flex-wrap: wrap;
@@ -1595,6 +1609,19 @@ button:focus-visible {
   .experience-section .section-heading h2 {
     width: 100%;
     font-size: clamp(29px, 8vw, 36px);
+    text-align: left;
+  }
+
+  .skills-section .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .skills-section .section-heading h2 {
+    width: 100%;
+    margin: 0;
+    font-size: clamp(26px, 7.4vw, 34px);
     text-align: left;
   }
 
